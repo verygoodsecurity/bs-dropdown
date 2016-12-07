@@ -5,7 +5,7 @@ import computed from 'ember-computed';
 export default Component.extend({
   attributeBindings: 'role',
   role: 'button',
-  classNameBindings: ['isOpen:open:closed'],
+  classNameBindings: ['isOpen:open'],
   dropdownService: service('bs-dropdown'),
 
   isOpen: computed('dropdownService.activeDropdown', 'dropdownName', function() {
