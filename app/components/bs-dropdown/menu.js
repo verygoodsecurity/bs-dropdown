@@ -1,0 +1,1 @@
+export { default } from 'bs-dropdown/components/bs-dropdown/menu';
