@@ -17,7 +17,7 @@ export default Component.extend({
     this._super(event);
     event.stopPropagation();
     if (this.get('closeOnClick')) {
-      this.get('dropdownService').closeDropdown(this.get('name'));
+      this.get('dropdownService').closeDropdowns();
     }
   },
 });
